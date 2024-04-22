@@ -42,11 +42,11 @@ LOGGER = logging.getLogger(__name__)
 
 api_id = int(os.environ.get("APP_ID","18049084"))
 api_hash = os.environ.get("API_HASH","7e74b1e22026fcc291d32b3d431aa21e")
-bot_token = os.environ.get("TOKEN","") # Botunuzun Tokenini Girin.
-sahib = os.environ.get("sahib", "") # Sahiplik Hesabin Kullanıcı Adını Girin .
-BOT_ID = int(os.environ.get("BOT_ID", "")) # Botunuzun İd'si ( Tokenin Başındaki Rakamları ) Girin .
+bot_token = os.environ.get("TOKEN","7173657528:AAHcNsBVCxKb3ijpzO30qgq4Ivku4c0-qpA") # Botunuzun Tokenini Girin.
+sahib = os.environ.get("sahib", "tghesabi_01") # Sahiplik Hesabin Kullanıcı Adını Girin .
+BOT_ID = int(os.environ.get("BOT_ID", "7173657528")) # Botunuzun İd'si ( Tokenin Başındaki Rakamları ) Girin .
 DATABASE_URL = os.environ.get("DATABASE_URL","") # MongoDB veritabanınızın url'si.
-BOT_USERNAME = os.environ.get("BOT_USERNAME","") # Botunuzun kullanıcı adı.
+BOT_USERNAME = os.environ.get("BOT_USERNAME","Gulay_tagger_bot") # Botunuzun kullanıcı adı.
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL","")) # Botunuzun eylemleri kaydedeceği kayıt grubunun id'si.
 GROUP_SUPPORT = os.environ.get("GROUP_SUPPORT", "") # Botunuzdan yasaklanan kullanıcıların itiraz işlemleri için başvuracağı grup, kanal veya kullanıcı. Boş bırakırsanız otomatik olarak OWNER_ID kimliğine yönlendirecektir.
 GONDERME_TURU = os.environ.get("GONDERME_TURU", True) # Botunuzun yanıtladığınız mesajı gönderme türü. Eğer direkt iletmek isterseniz False, kopyasını göndermek isterseniz True olarak ayarlayın.
